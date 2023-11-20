@@ -72,7 +72,6 @@ abstract class StripeBase extends AbstractPaymentProcessor {
     switch (paymentIntent.status) {
       case "requires_payment_method":
       case "requires_confirmation":
-      case "processing":
         return PaymentSessionStatus.PENDING
       case "requires_action":
         return PaymentSessionStatus.REQUIRES_MORE
@@ -81,6 +80,12 @@ abstract class StripeBase extends AbstractPaymentProcessor {
       case "requires_capture":
       case "succeeded":
         return PaymentSessionStatus.AUTHORIZED
+      case "processing":
+        if (paymentIntent.latest_charge) {
+          return PaymentSessionStatus.AUTHORIZED
+        } else {
+          return PaymentSessionStatus.PENDING
+        }
       default:
         return PaymentSessionStatus.PENDING
     }
