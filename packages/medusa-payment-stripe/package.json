@@ -1,5 +1,5 @@
 {
-  "name": "medusa-payment-stripe",
+  "name": "catalog-payment-stripe",
   "version": "6.0.6",
   "description": "Stripe Payment provider for Medusa Commerce",
   "main": "dist/index.js",
