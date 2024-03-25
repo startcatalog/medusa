@@ -1,5 +1,23 @@
 # @medusajs/core-flows
 
+## 0.1.0
+
+### Minor Changes
+
+- [#6759](https://github.com/medusajs/medusa/pull/6759) [`70859397c`](https://github.com/medusajs/medusa/commit/70859397c00ad0b45a517547e2792ed4f6882d73) Thanks [@sradevski](https://github.com/sradevski)! - Align the v2 product HTTP endpoints to follow conventions
+
+- [#6748](https://github.com/medusajs/medusa/pull/6748) [`05e857d25`](https://github.com/medusajs/medusa/commit/05e857d25657b5576a891c9b48c19c1759c70701) Thanks [@sradevski](https://github.com/sradevski)! - Updated the signature of the product module variant and options endpoints to follow our conventions
+
+### Patch Changes
+
+- [#6778](https://github.com/medusajs/medusa/pull/6778) [`7e93eda1a`](https://github.com/medusajs/medusa/commit/7e93eda1a44310311d2f3f8a1d634f60e7c48cb5) Thanks [@carlos-r-l-rodrigues](https://github.com/carlos-r-l-rodrigues)! - Feat: workflow cancel
+
+- Updated dependencies [[`06f22bb48`](https://github.com/medusajs/medusa/commit/06f22bb48ad1fe73577657b8c5db055312f16a0d), [`7e93eda1a`](https://github.com/medusajs/medusa/commit/7e93eda1a44310311d2f3f8a1d634f60e7c48cb5), [`56481e683`](https://github.com/medusajs/medusa/commit/56481e683d33ff98f0d4c4e144873bb23f993c9c), [`4974f5e45`](https://github.com/medusajs/medusa/commit/4974f5e4557bd64a328a881ec02b91e15485bd23), [`3ca957ec0`](https://github.com/medusajs/medusa/commit/3ca957ec0fdcdc966a3d2ca94b8222d68767cf9a), [`1ef9c78ce`](https://github.com/medusajs/medusa/commit/1ef9c78cea080c3b7c136f909c6cddec9d8f0c62)]:
+  - @medusajs/modules-sdk@1.12.10
+  - @medusajs/orchestration@0.5.6
+  - @medusajs/workflows-sdk@0.1.5
+  - @medusajs/utils@1.11.8
+
 ## 0.0.7
 
 ### Patch Changes

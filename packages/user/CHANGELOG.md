@@ -1,5 +1,16 @@
 # @medusajs/user
 
+## 0.0.3
+
+### Patch Changes
+
+- [#6758](https://github.com/medusajs/medusa/pull/6758) [`d930ebc1e`](https://github.com/medusajs/medusa/commit/d930ebc1ed711631454376a13a22b66f31cc1a7d) Thanks [@pKorsholm](https://github.com/pKorsholm)! - feat(user): invite expiry fix
+
+- Updated dependencies [[`06f22bb48`](https://github.com/medusajs/medusa/commit/06f22bb48ad1fe73577657b8c5db055312f16a0d), [`56481e683`](https://github.com/medusajs/medusa/commit/56481e683d33ff98f0d4c4e144873bb23f993c9c), [`4974f5e45`](https://github.com/medusajs/medusa/commit/4974f5e4557bd64a328a881ec02b91e15485bd23), [`05e857d25`](https://github.com/medusajs/medusa/commit/05e857d25657b5576a891c9b48c19c1759c70701), [`1ef9c78ce`](https://github.com/medusajs/medusa/commit/1ef9c78cea080c3b7c136f909c6cddec9d8f0c62)]:
+  - @medusajs/modules-sdk@1.12.10
+  - @medusajs/types@1.12.0
+  - @medusajs/utils@1.11.8
+
 ## 0.0.2
 
 ### Patch Changes
