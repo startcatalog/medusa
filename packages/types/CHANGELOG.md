@@ -1,5 +1,17 @@
 # @medusajs/types
 
+## 1.12.0
+
+### Minor Changes
+
+- [#6748](https://github.com/medusajs/medusa/pull/6748) [`05e857d25`](https://github.com/medusajs/medusa/commit/05e857d25657b5576a891c9b48c19c1759c70701) Thanks [@sradevski](https://github.com/sradevski)! - Updated the signature of the product module variant and options endpoints to follow our conventions
+
+### Patch Changes
+
+- [#6739](https://github.com/medusajs/medusa/pull/6739) [`56481e683`](https://github.com/medusajs/medusa/commit/56481e683d33ff98f0d4c4e144873bb23f993c9c) Thanks [@srindom](https://github.com/srindom)! - feat: v2 - add worker mode
+
+- [#6772](https://github.com/medusajs/medusa/pull/6772) [`1ef9c78ce`](https://github.com/medusajs/medusa/commit/1ef9c78cea080c3b7c136f909c6cddec9d8f0c62) Thanks [@adrien2p](https://github.com/adrien2p)! - chore: v2 - deprecate extra in favor of driver options
+
 ## 1.11.14
 
 ### Patch Changes

@@ -1,5 +1,16 @@
 # @medusajs/utils
 
+## 1.11.8
+
+### Patch Changes
+
+- [#6751](https://github.com/medusajs/medusa/pull/6751) [`4974f5e45`](https://github.com/medusajs/medusa/commit/4974f5e4557bd64a328a881ec02b91e15485bd23) Thanks [@riqwan](https://github.com/riqwan)! - feat(utils): autogenerates create and update methods when dto is provided
+
+- [#6772](https://github.com/medusajs/medusa/pull/6772) [`1ef9c78ce`](https://github.com/medusajs/medusa/commit/1ef9c78cea080c3b7c136f909c6cddec9d8f0c62) Thanks [@adrien2p](https://github.com/adrien2p)! - chore: v2 - deprecate extra in favor of driver options
+
+- Updated dependencies [[`56481e683`](https://github.com/medusajs/medusa/commit/56481e683d33ff98f0d4c4e144873bb23f993c9c), [`05e857d25`](https://github.com/medusajs/medusa/commit/05e857d25657b5576a891c9b48c19c1759c70701), [`1ef9c78ce`](https://github.com/medusajs/medusa/commit/1ef9c78cea080c3b7c136f909c6cddec9d8f0c62)]:
+  - @medusajs/types@1.12.0
+
 ## 1.11.7
 
 ### Patch Changes

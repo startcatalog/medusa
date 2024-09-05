@@ -1,5 +1,30 @@
 # Change Log
 
+## 1.21.0
+
+### Minor Changes
+
+- [#6759](https://github.com/medusajs/medusa/pull/6759) [`70859397c`](https://github.com/medusajs/medusa/commit/70859397c00ad0b45a517547e2792ed4f6882d73) Thanks [@sradevski](https://github.com/sradevski)! - Align the v2 product HTTP endpoints to follow conventions
+
+### Patch Changes
+
+- [#6803](https://github.com/medusajs/medusa/pull/6803) [`0168c819d`](https://github.com/medusajs/medusa/commit/0168c819da2bcdf2391c5fb5501342ea140882df) Thanks [@srindom](https://github.com/srindom)! - fix(medusa-test-utils): make module test runner models configurable
+
+- [#6739](https://github.com/medusajs/medusa/pull/6739) [`56481e683`](https://github.com/medusajs/medusa/commit/56481e683d33ff98f0d4c4e144873bb23f993c9c) Thanks [@srindom](https://github.com/srindom)! - feat: v2 - add worker mode
+
+- [#6771](https://github.com/medusajs/medusa/pull/6771) [`205573f5e`](https://github.com/medusajs/medusa/commit/205573f5e3bb826abe1cc1bc16855f079aa490e4) Thanks [@srindom](https://github.com/srindom)! - fix(medusa): ensure feature flags are loaded properly in migrate command
+
+- [#6772](https://github.com/medusajs/medusa/pull/6772) [`1ef9c78ce`](https://github.com/medusajs/medusa/commit/1ef9c78cea080c3b7c136f909c6cddec9d8f0c62) Thanks [@adrien2p](https://github.com/adrien2p)! - chore: v2 - deprecate extra in favor of driver options
+
+- Updated dependencies [[`0168c819d`](https://github.com/medusajs/medusa/commit/0168c819da2bcdf2391c5fb5501342ea140882df), [`70859397c`](https://github.com/medusajs/medusa/commit/70859397c00ad0b45a517547e2792ed4f6882d73), [`06f22bb48`](https://github.com/medusajs/medusa/commit/06f22bb48ad1fe73577657b8c5db055312f16a0d), [`60070fb65`](https://github.com/medusajs/medusa/commit/60070fb65fa58872219a1145a8eace837f0cafde), [`7e93eda1a`](https://github.com/medusajs/medusa/commit/7e93eda1a44310311d2f3f8a1d634f60e7c48cb5), [`56481e683`](https://github.com/medusajs/medusa/commit/56481e683d33ff98f0d4c4e144873bb23f993c9c), [`4974f5e45`](https://github.com/medusajs/medusa/commit/4974f5e4557bd64a328a881ec02b91e15485bd23), [`05e857d25`](https://github.com/medusajs/medusa/commit/05e857d25657b5576a891c9b48c19c1759c70701), [`3ca957ec0`](https://github.com/medusajs/medusa/commit/3ca957ec0fdcdc966a3d2ca94b8222d68767cf9a), [`1ef9c78ce`](https://github.com/medusajs/medusa/commit/1ef9c78cea080c3b7c136f909c6cddec9d8f0c62)]:
+  - medusa-test-utils@1.1.43
+  - @medusajs/core-flows@0.1.0
+  - @medusajs/modules-sdk@1.12.10
+  - @medusajs/orchestration@0.5.6
+  - @medusajs/link-modules@0.2.10
+  - @medusajs/workflows-sdk@0.1.5
+  - @medusajs/utils@1.11.8
+
 ## 1.20.3
 
 ### Patch Changes
